@@ -1,0 +1,9 @@
+model\Pessoa.class
+model\PadraoLetras.class
+model\UnidadeConsumidora.class
+model\Administrador.class
+model\Cliente.class
+model\Rede.class
+model\Servico.class
+controller\InterfaceDAO.class
+modelDAO\ServicoDAO.class

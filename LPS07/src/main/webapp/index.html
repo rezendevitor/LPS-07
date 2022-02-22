@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1252">
+<title>Cadastro</title>
+</head>
+<body> 	
+    <form action="AdministradorServlet" method="get">
+        <center>
+                <h1>Cadastro de Administrador</h1>
+                <h3>Nome: <input type="text" id="nome" name="nome"></h3>
+                <h3>CPF: <input type="text" id="cpf" name="cpf"></h3>
+                <h3>Telefone: <input type="text" id="telefone" name="telefone" ></h3>       
+                <h3>E-mail: <input type="text" id="e-mail" name="e-mail"></h3>
+                <h3>Senha: <input type="password" id="senha" name="senha"></h3>
+                <h3>Data de Nascimento: </h3><input type="date" id="nascimento" name="nascimento" >
+                <h3>Sexo: <select name="sexo" id="sexo">
+                    <option value="<Selecione>">Selecione</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Masculino">Masculino</option>
+                </select></h3>
+                <h3>Salário: <input type="number" id="salario" name="salario"></h3>
+
+            <br>
+            <input type="submit" name="salvar" id="salvar" value="Salvar">
+        </center>
+    </form>
+    <form action="AdministradorServlet" method="get">
+        <br><center><input type="submit" name="listar" id="listar" value="Listar"></center>
+    </form>
+</body>
+</html>
